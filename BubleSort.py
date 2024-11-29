@@ -1,6 +1,3 @@
-import time
-
-start = time.time()
 
 def BubbleSort(arr):
     for i in range(len(arr) - 1):  # Outer loop for passes
@@ -15,10 +12,3 @@ if __name__ == "__main__":
 
     output = BubbleSort(arr)
     print(f"Sorted Array: {output}")
-
-end = time.time()
-
-
-result = end - start
-
-print(result)
